@@ -1,0 +1,19 @@
+{
+  "name": "observable-lite",
+  "version": "1.0.0",
+  "description": "Implementação mínima de Observable e Subject",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["observable","subject","rxjs","reactive"],
+  "author": "Tox",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  }
+}
